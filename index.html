@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Assessment</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <nav class="zone white">
+    <ul class="main-nav">
+        <li><a>Realme</a></li>
+        <li class="push"><i class="fa fa-shopping-cart btn-cart" id="myBtnmodal" style="font-size:36px"></i></li>
+    </ul>
+  </nav>
+<!-- Carousel -->
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="img/realmec25.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="img/realmebuds.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="img/realmesale.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+<!-- Carousel End -->
+
+    <div class="zone blue flex-container1">
+        <div class="box zone">
+            <img id="myImg1" src="img/realme_5_pro_L_1.jpg" alt="realme 5 pro" width="250" height="150">
+            <h3 class="title-name">Realme 5 Pro</h3>
+            <h4 class="title-price">Php 5,999</h4>
+            <button class="button btn-order" id="order" >Order</button>
+        </div>
+        <div class="box zone">
+            <img id="myImg2" src="img/Realme_C3_a1_L_1.jpg" alt="realme 5 pro" width="250" height="150">
+            <h3 class="title-name">Realme C3</h3>
+            <h4 class="title-price">Php 1,799</h4>
+            <button class="button btn-order">Order</button>
+        </div>
+        <div class="box zone">
+            <img id="myImg3" src="img/Realme_C11_th_L_1.jpg" alt="realme 5 pro" width="250" height="150">
+            <h3 class="title-name">Realme C11</h3>
+            <h4 class="title-price">Php 2,999</h4>
+            <button class="button btn-order" >Order</button>
+        </div>
+        <div class="box zone">
+            <img id="myImg4" src="img/Realme_6__L_1.jpg" alt="realme 5 pro" width="250" height="150">
+            <h3 class="title-name">Realme 6</h3>
+            <h4 class="title-price">Php 6,000</h4>
+            <button class="button btn-order">Order</button>
+        </div>
+    </div>
+    <div class="zone blue flex-container2">
+        <div class="box zone">
+            <img id="myImg5" src="img/Realme_XTa_L_1.jpg" alt="realme 5 pro" width="250" height="150">
+            <h3 class="title-name">Realme XT</h3>
+            <h4 class="title-price">Php 5,199</h4>
+            <button class="button btn-order">Order</button>
+        </div>
+        <div class="box zone">
+            <img id="myImg6" src="img/Realme_X7_Pro_ph_L_1.jpg" alt="realme 5 pro" width="250" height="150">
+            <h3 class="title-name">Realme X7 Pro</h3>
+            <h4 class="title-price">Php 19,999</h4>
+            <button class="button btn-order">Order</button>
+        </div>
+        <div class="box zone">
+            <img id="myImg7" src="img/Realme_X50_5G_a_L_1.jpg" alt="realme 5 pro" width="250" height="150">
+            <h3 class="title-name">Realme X50 5G</h3>
+            <h4 class="title-price">Php 13,699</h4>
+            <button class="button btn-order">Order</button>
+        </div>
+        <div class="box zone">
+            <img id="myImg8" src="img/Realme_X7_ph_L_1.jpg" alt="realme 5 pro" width="250" height="150">
+            <h3 class="title-name">Realme 7</h3>
+            <h4 class="title-price">Php 13,899</h4>
+            <button class="button btn-order">Order</button>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Realme Cart</h2>
+        </div>
+        <div class="modal-body">
+            <p>Some text in the Modal Body</p>
+            <p>Some other text...</p>
+        </div>
+        <div class="modal-footer">
+        </div>
+        </div>
+    
+    </div>
+
+  <footer class="zone yellow">copyright 2021 FED Basic Assessment</footer>
+
+  <script type="text/javascript" src="script.js"></script>
+</div>
+</body>
+</html>
